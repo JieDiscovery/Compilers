@@ -1,0 +1,36 @@
+-- Grammar for Program: A sequence of definitions
+
+PDefs. Program ::= [Def] ; 
+terminator Def ""        ;
+
+-- Grammar for Comments
+
+comment "//"      ;
+comment "/*" "*/" ;
+
+-- Grammar for Function Definition
+
+DFun. Def ::= Type Id "(" [Arg] ")" "{" [Stm] "}" ; 
+separator Arg "," ;
+terminator Stm "" ;
+
+-- Grammar for Argument Declaration
+
+ADecl. Arg ::= Type Id ;
+
+-- Grammar for Expression
+
+SExp. Stm ::= Exp ";"  ;
+
+-- Grammar for One-variable Declaration
+
+SDecl. Stm ::= Type Id ";"           ;
+SDecls. Stm ::= Type Id "," [Id] ";" ;
+SInit. Stm ::= Type Id "=" Exp ";"   ;
+
+-- Grammar for statements
+
+SReturn. Stm ::= "return" Exp ";" ;
+SWhile. Stm ::= "while" "(" Exp ")" Stm ;
+SBlock. Stm ::= "{" [Stm] "}" ;
+SIfElse. Stm ::= "if" "(" Exp ")" Stm "else" Stm ;		
