@@ -29,7 +29,6 @@ This repo mainly contains four parts:
 * Code Generation
 * Functional Language Interpreter
 
-
 ## [1. Parser](http://www.cse.chalmers.se/edu/year/2019/course/DAT151_Programming_Language_Technology/laborations/lab1/index.html)
 In this part, we wrote a parser for a fragment "C--" of the C++ programming language which could return an abstract syntax tree at success, and report an error with a line number at failure.
 
