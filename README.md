@@ -1,6 +1,6 @@
 # Programming Language Technology
 
-This is a repo of labs during the course DAT151 Programming Language Technology at [Chalmers](https://www.chalmers.se/en/Pages/default.aspx) which aimes to give understanding of how programming languages are designed, documented, and implemented. In this repo, you will have a deeper view about *Compilers* and *Interpreters* work step by step.
+This is a repo of labs during the course DAT151 Programming Language Technology at [Chalmers University](https://www.chalmers.se/en/Pages/default.aspx) which aimes to give understanding of how programming languages are designed, documented, and implemented. In this repo, you will have a deeper view about *Compilers* and *Interpreters* work step by step.
 
 # Introduction
 
