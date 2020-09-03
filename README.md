@@ -26,8 +26,9 @@ The part is about how to build a code generator from a fragment C-- of the C/C++
 ## [4. Functional Language Interpreter](http://www.cse.chalmers.se/edu/year/2019/course/DAT151/laborations/lab4/index.html)
 The objective of this part is to present how to write an interpreter for a small, untyped functional programming language which is a tiny subset of Haskell. The interpreter could walk through programs and print out the value of the main function.
 
-
-<font size=4><font color=grey>Basic structure of code in this repo is provided by the teachers' team of course DAT151 at Chalmers, there will be identifier in each file to present their copyright</font></font>
+```
+Basic structure of code in this repo is provided by the teachers' team of course DAT151 at Chalmers, there will be an identifier in each file to present their copyrights.
+```
 
 
 
