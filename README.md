@@ -48,7 +48,7 @@ The objective of this part is to present how to write an interpreter for a small
 
 ## Copyright declaration
 
-Basic structure of code in this repo is provided by the teaching group of course [DAT151](http://www.cse.chalmers.se/edu/year/2019/course/DAT151/) at Chalmers, there will be an identifier in each file to present their copyrights.
+Basic structure of code and test suites in this repo are provided by the teaching group of course [DAT151](http://www.cse.chalmers.se/edu/year/2019/course/DAT151/) at Chalmers, there will be an identifier in each file to present their copyrights.
 
 
 
