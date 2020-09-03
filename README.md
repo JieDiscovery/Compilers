@@ -4,11 +4,31 @@ This is a repo of labs during the course DAT151 Programming Language Technology 
 
 # Introduction
 
+## Compiler
+[*Description from Wiki Compiler*](https://www.wikiwand.com/en/Compiler)
+
+```
+A compiler is a computer program (or a set of programs) that transforms source code written in a programming language (the source language) into another computer language (the target language), with the latter often having a binary form known as object code. The most common reason for converting source code is to create an executable program.
+```
+
+
+## Interpreter
+[*Description from Wiki Interpreter*](https://www.wikiwand.com/en/Language_interpretation)
+
+```
+In computer science, an interpreter is a computer program that directly executes, i.e. performs, instructions written in a programming or scripting language, without previously compiling them into a machine language program. An interpreter generally uses one of the following strategies for program execution:
+  1. parse the source code and perform its behavior directly.
+  2. translate source code into some efficient intermediate representation and immediately execute this.
+  3. execute stored precompiled code made by a compiler which is part of the interpreter system
+```
+
+
 This repo mainly contains four parts:
 * Paser
 * TypeChecker and Interpreter
 * Code Generation
 * Functional Language Interpreter
+
 
 ## [1. Parser](http://www.cse.chalmers.se/edu/year/2019/course/DAT151_Programming_Language_Technology/laborations/lab1/index.html)
 In this part, we wrote a parser for a fragment "C--" of the C++ programming language which could return an abstract syntax tree at success, and report an error with a line number at failure.
